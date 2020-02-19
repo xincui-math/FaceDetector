@@ -4,8 +4,7 @@ from collections import defaultdict
 import torch
 from easydict import EasyDict
 
-import mtcnn.utils.functional as func
-
+from ..utils import functional as func
 
 class FaceTracker(object):
 

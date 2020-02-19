@@ -2,7 +2,7 @@ import cv2
 import math
 import torch
 
-import mtcnn.utils.functional as func
+from ..utils import functional as func
 
 
 def _no_grad(func):

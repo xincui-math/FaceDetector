@@ -1,7 +1,7 @@
 import numpy as np
 import torch
 
-from mtcnn.utils.align_trans import get_reference_facial_points, warp_and_crop_face
+from ..utils.align_trans import get_reference_facial_points, warp_and_crop_face
 
 refrence = get_reference_facial_points(default_square=True)
 
